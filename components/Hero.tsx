@@ -51,6 +51,7 @@ const Hero: React.FC = () => {
           src={HERO_IMAGE} 
           alt="Família feliz no Studio Ozzy" 
           className="w-full h-full object-cover object-center transform hover:scale-105 transition-transform duration-[2s]"
+          fetchPriority="high"
         />
         {/* Gradiente sutil apenas para suavizar a transição lateral se necessário, mas mantendo a imagem limpa */}
         <div className="absolute inset-0 bg-gradient-to-b from-black/10 to-transparent md:bg-none pointer-events-none"></div>

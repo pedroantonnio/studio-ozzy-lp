@@ -19,6 +19,7 @@ const About: React.FC = () => {
                   src={ABOUT_IMAGE} 
                   alt="Josy Kênia Fotógrafa" 
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+                  loading="lazy"
                 />
               </div>
               {/* Floating Badge */}

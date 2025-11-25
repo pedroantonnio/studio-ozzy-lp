@@ -31,6 +31,7 @@ const Services: React.FC = () => {
                   src={service.imageUrl} 
                   alt={service.title} 
                   className="w-full h-full object-cover object-top transform group-hover:scale-110 transition-transform duration-700"
+                  loading="lazy"
                 />
                 <div className="absolute top-4 right-4 z-20 bg-white/90 backdrop-blur rounded-full p-2 w-10 h-10 flex items-center justify-center text-ozzy-rose-dark shadow-sm">
                   <i className={service.iconClass}></i>
