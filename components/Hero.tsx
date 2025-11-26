@@ -20,7 +20,8 @@ const Hero: React.FC = () => {
           </h1>
           
           <p className="font-sans text-stone-600 text-base md:text-lg mb-8 max-w-md leading-relaxed font-light tracking-wide">
-            Especialista em Newborn e Fotografia de Família. <br className="hidden lg:block"/> 
+            Especialista em Newborn, Fotografia Infantil e de Família. <br className="hidden lg:block"/>
+            <br></br>
             Criando memórias atemporais em Anápolis-GO com segurança e delicadeza.
           </p>
           
